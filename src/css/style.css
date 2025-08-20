@@ -40,6 +40,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 16px;
+  padding: 24px 0;
 }
 
 ul li a {
@@ -59,4 +60,17 @@ ul li a {
 ul li a:hover {
   background: rgba(255, 255, 255, 0.05);
   border: 1.5px solid white;
+}
+
+#social-links {
+  padding: 24px 0;
+  gap: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  text-align: center;
+  padding: 24px 0;
+  font-size: 14px;
 }
