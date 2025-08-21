@@ -33,18 +33,24 @@ body * {
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  }
+}
 
 #container {
   width: 360px;
   margin: auto;
   margin: 56px auto 0px;
   padding: 0 24px;
-  }
+}
 
 #profile {
   text-align: center;
   padding: 24px;
+}
+
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 4px auto;
 }
 
 #switch button {
@@ -54,6 +60,27 @@ body {
   border: none;
   border-radius: 50%;
   background-color: white;
+  transform: translatey(-50%);
+  top: 50%;
+  left: 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+  background: var(--surface-color);
+  border: 1px solid var(--stroke-color);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+.light #switch button {
+  right: 0;
+  left: inherit;
 }
 
 #profile img {
