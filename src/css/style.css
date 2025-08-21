@@ -24,6 +24,7 @@
   --surface-hover-color: rgba(0, 0, 0, 0.2);
   --highlight-color: rgba(0, 0, 0, 0.2);
   --switch-bg-url: url("../assets/sun.svg");
+  --profile-url: url("../assets/profile-dark.jpeg");
 }
 
 body * {
